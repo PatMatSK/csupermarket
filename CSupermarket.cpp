@@ -67,9 +67,7 @@ bool CDate::operator <= (const CDate & a)const {
     return *this < a || *this == a;
 }
 
-/* ------------------------------------------C-SUPERMARKET------------------------------------------------
- * CSupermarket
- */
+//-------------------------------------------C-SUPERMARKET------------------------------------------------
 class CSupermarket{
 public:
     CSupermarket &          store   ( const string & name,const CDate & expiryDate,int  count );
