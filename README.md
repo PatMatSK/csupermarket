@@ -1,4 +1,4 @@
-# progest-5
+# CSupermarket
 CSupermarket class stores and sales products.
 Products are defined by name, count and expitare date (represented by CDate) .  One product can have more expirate dates.
 Program looks for exact match while selling, if not looks for match with one different letter.
